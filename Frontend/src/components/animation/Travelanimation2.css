@@ -1,0 +1,65 @@
+@media screen and (max-width: 768px) {
+    #dementor {
+      position: relative;
+      right: 250px;
+      animation-name: travelsmall2;
+      animation-iteration-count: infinite;
+      animation-duration: 5s;
+      animation-timing-function: linear;
+      animation-delay: 5s;
+      animation-direction:alternate-reverse;
+      
+    }
+  }
+  
+  @keyframes travelsmall2 {
+    0% {
+        transform: translate(700px, 0px);
+    }
+    25% {
+        transform: translate(525px,-50px);
+    }
+    50% {
+        transform: translate(350px,0px);
+    }
+    75% {
+        transform: translate(175px, -50px);
+    }
+    100% {
+        transform: translate(-20px,0px);
+    }
+  }
+  
+  @media screen and (min-width: 769px) {
+    #dementor {
+      position: relative;
+      right: 500px;
+      animation-name: travelbig2;
+      animation-iteration-count: infinite;
+      animation-duration: 10s;
+      animation-timing-function: linear;
+      animation-delay: 2s;
+      max-width: 100vw;
+  
+    }
+  }
+  
+  @keyframes travelbig2 {
+    0% {
+        transform: translate(1900px, 0px);
+    }
+    
+    25% {
+        transform: translate(1290px, -60px);
+    }
+    50% {
+        transform: translate(860px, 0px);
+    }
+    75% {
+        transform: translate(430px, -60px);
+    }
+    100% {
+        transform: translate(0px, 0px);
+    }
+  }
+  

@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+background-image: url(../background-light.png);
+background-repeat: no-repeat;
+background-size:cover;
+background-attachment: fixed;
+
+
+  font-family: "Jim Nightshade", cursive;
+  font-weight: 400;
+  font-style: normal;
+
+font-size: x-large;
+  
+background-color: hsl(241, 84%, 83%);
+}
+
+     
+
+html {
+    overflow-x: hidden;
+  }

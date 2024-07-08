@@ -1,0 +1,20 @@
+[
+    {
+        "name":"Harry Potter", 
+        "image":"https://i.pinimg.com/564x/a8/35/82/a835820e1925a7bafa0f6c87d5d3ec3d.jpg",
+        "desc":"Harry James Potter is a significant figure in the wizarding world, famous for surviving a deadly curse from the dark wizard Lord Voldemort as an infant. Raised by his neglectful Aunt Petunia and Uncle Vernon, Harry learns on his eleventh birthday that he is a wizard and enrolls at Hogwarts School of Witchcraft and Wizardry. There, he discovers his parents' magical legacy, forms close friendships with Hermione Granger and Ron Weasley, and realizes his destiny involves confronting and defeating Voldemort. Harry's courage, loyalty, and determination are central to his character, as he navigates the challenges of growing up while battling dark forces.", 
+        "link":"/harrypotter"
+    },
+    {
+        "name":"Hermione Granger" ,
+        "image":"https://i.pinimg.com/564x/0b/2a/10/0b2a10924131c5aca320366d4e7becde.jpg", 
+        "desc":"Hermione Jean Granger is known for her exceptional intellect and dedication to her studies. Born to Muggle (non-magical) parents, she quickly becomes one of the brightest students at Hogwarts School of Witchcraft and Wizardry. Hermione's vast knowledge of spells, potions, and magical creatures, combined with her analytical mind and quick thinking, make her an invaluable ally in any situation. She is fiercely loyal to her friends Harry and Ron and is often the one to devise plans and solutions to their problems. Hermione is also a passionate advocate for the rights of magical creatures and is involved in numerous efforts to improve their welfare. ", 
+        "link":"/hermionegranger"
+    },
+    {
+        "name":"Ron Weasley", 
+        "image":"https://i.pinimg.com/564x/bf/8b/d6/bf8bd6619971eba074d0de27d790c565.jpg", 
+        "desc":"Ronald Bilius Weasley, commonly known as Ron, comes from a large, loving wizarding family that often struggles financially. He is known for his loyalty, bravery, and sense of humor, which provide much-needed support and comic relief to his friends Harry and Hermione. Despite feeling overshadowed by his accomplished siblings and friends, Ron's courage and strategic thinking are crucial in their battles against dark forces. His deep loyalty to Harry and Hermione is evident in their numerous adventures, where he often plays a key role in their success. Ron's resourcefulness and bravery frequently come to the fore in critical moments, proving his worth as a true friend and ally.", 
+        "link":"/ronweasely"
+    }
+]
