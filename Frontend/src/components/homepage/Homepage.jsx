@@ -20,7 +20,7 @@ function Homepage(props) {
   useEffect(() => {
     const getmaincharacter = async () => {
       try {
-        const res = await axios.get('http://localhost:4001/maincharacter');
+        const res = await axios.get('https://wizardchamberback-3.onrender.com/maincharacter');
         console.log(res.data);
         setcharacter(res.data);
       } catch (error) {

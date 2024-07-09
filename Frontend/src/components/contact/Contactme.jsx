@@ -39,7 +39,7 @@ export const ContactMe = () => {
       <label className=' lg:text-5xl' >Email</label>
       <input className='w-10/12 rounded-md border border-black px-4'  type="email" name="user_email" />
       <label className=' lg:text-5xl'>Message</label>
-      <textarea className='w-10/12 rounded-md border border-black px-4'  name="message" />
+      <input className='w-10/12 h-[20vh] rounded-md border border-black px-4'  name="message" />
       <input type="submit" value="S E N D" className='btn lg:text-5xl border-white border-1 hover:bg-white hover:bg-opacity-35 md:w-10/12  ' />
     </form>
     </div>

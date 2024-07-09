@@ -21,6 +21,6 @@ background-color: hsl(241, 84%, 83%);
 
      
 
-html {
+html,body {
     overflow-x: hidden;
   }

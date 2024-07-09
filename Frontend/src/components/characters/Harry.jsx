@@ -1,9 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-function Harry() {
+function Harry(props) {
     return (
         <>
-            <div className='space-y-3 max-w-screen-2xl container min-h-screen mx-auto md:px-20 px-4 flex items-center '>
+            <div className={`space-y-3 max-w-screen-2xl container min-h-screen mx-auto md:px-20 px-4 flex items-center
+                 ${props.textc} `}>
                 <div className='glass mt-5 md:mt-0 border rounded-3xl overflow-hidden bg-opacity-25 shadow-xl shadow-black ' >
                 <div className='flex flex-col md:flex-row '>
                 <div><img className='max-w-96' src="https://i.pinimg.com/564x/a8/35/82/a835820e1925a7bafa0f6c87d5d3ec3d.jpg" alt="" /></div>

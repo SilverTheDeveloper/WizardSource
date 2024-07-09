@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-function Characters({hero}) {
+function Characters({hero},props) {
 
 
   
@@ -9,7 +9,7 @@ function Characters({hero}) {
     return (
         <>
     
-            <div  className="card items-center md:items-start my-4 p-3 cardbox flex flex-col lg:flex-row rounded-md glass ">
+            <div  className='card items-center  md:items-start my-4 p-3 cardbox flex flex-col  lg:flex-row rounded-md glass '>
 
                 <img className='lg:w-4/12 md:w-full  border-transparent border-solid outline-0 rounded-md'
                     src={hero.image} />
@@ -21,7 +21,7 @@ function Characters({hero}) {
                     
                     
                     
-                    <div className=" md:hidden card-actions justify-end">
+                    <div className=' md:hidden   card-actions justify-end'>
                         <Link onClick={() => { window.scrollTo(0, 0); }} to={hero.link}> <button 
                         className="btn btn-primary">
                             Learn more!</button>

@@ -69,11 +69,14 @@ function App() {
           <Route path='/books' element={<Books mode={mode} />} />
           <Route path='/characters' element={<Characterpage />} />
           <Route path='/about' element={< About />} />
-          <Route path='/harrypotter' element={< Harry />} />
-          <Route path='/hermionegranger' element={< Hermione />} />
-          <Route path='/ronweasely' element={< Ron />} />
+          <Route path='/harrypotter' element={< Harry textc={textc} />} />
+          <Route path='/hermionegranger' element={< Hermione textc={textc} />} />
+          <Route path='/ronweasely' element={< Ron  textc={textc} />} />
           <Route path='/jkrowling' element={< Jk />} />
           <Route path='/contactme' element={< ContactMe />} />
+          
+          
+          
 
         </Routes>
         <br />

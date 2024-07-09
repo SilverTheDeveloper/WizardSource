@@ -1,9 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-function Ron() {
+function Ron(props) {
     return (
         <>
-            <div className='space-y-3 max-w-screen-2xl container min-h-screen mx-auto md:px-20 px-4 flex items-center '>
+            <div className={`space-y-3 max-w-screen-2xl container min-h-screen mx-auto md:px-20 px-4 flex items-center
+                 ${props.textc} `}>
                 <div className='glass mt-5 md:mt-0 border rounded-3xl overflow-hidden bg-opacity-25 ' >
                     <div className='flex flex-col md:flex-row '>
                         <div><img className='max-w-96' src="https://i.pinimg.com/564x/bf/8b/d6/bf8bd6619971eba074d0de27d790c565.jpg" alt="" /></div>
